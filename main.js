@@ -1,4 +1,3 @@
-~~~
 'use strict';
 
 const catalog = document.getElementById('catalog');
