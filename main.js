@@ -16,6 +16,7 @@ function createCardItem(id) {
 
 function createImage(id) {
   const element = document.createElement('img');
+  element.id = id;
   element.classList.add('card__image');
   element.dataset.src = `https://picsum.photos/id/${id}/${sizeImages}`;
   element.alt = `image-id-${id}`;
