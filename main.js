@@ -29,7 +29,7 @@ function createListeners(element) {
   const initialSrc = element.dataset.src;
 
   element.addEventListener('mouseenter', () => {
-    const newId = +element.id + 1;
+    let newId = +element.id + 1;
 
     element.src = `https://picsum.photos/id/${newId}/${sizeImages}`;
   })
